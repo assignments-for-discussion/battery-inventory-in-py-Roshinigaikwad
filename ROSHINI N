@@ -1,0 +1,9 @@
+battery=int(input("enter the charged cycles:"))
+if battery<400:
+   print("charged cycle is low")
+else
+   print("charged cycle is medium")
+elif battery<=920:
+  print("charged cycle is high")
+else
+  print("none")
